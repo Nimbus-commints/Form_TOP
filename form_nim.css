@@ -1,0 +1,26 @@
+
+body {
+    border: 2px solid blue;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+section {
+    border: 2px solid black;
+}
+
+.column-one{
+    width: 40%;
+    height: 100%;
+    background-color: pink;
+    box-sizing: border-box;
+}
+
+.column-two {
+    width: 60%;
+    height: 100%;
+    background-color: red;
+    box-sizing: border-box;
+}
+
