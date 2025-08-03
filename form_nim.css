@@ -1,26 +1,18 @@
 
-body {
-    border: 2px solid blue;
-    margin: 0px;
+
+.flex-container {
+    display: flex;
+    height: 100vh;
     padding: 0px;
-
+    margin: 0px;
 }
 
-section {
-    border: 2px solid black;
+.section-one {
+    flex-grow: 1;
+    background-color: blue;
 }
 
-.column-one{
-    width: 40%;
-    height: 100%;
+.section-two {
+    flex-grow: 2;
     background-color: pink;
-    box-sizing: border-box;
 }
-
-.column-two {
-    width: 60%;
-    height: 100%;
-    background-color: red;
-    box-sizing: border-box;
-}
-
