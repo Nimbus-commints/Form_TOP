@@ -1,5 +1,4 @@
 
-
 .flex-container {
     display: flex;
     height: 100vh;
@@ -8,11 +7,20 @@
 }
 
 .section-one {
-    flex-grow: 1;
-    background-color: blue;
+    max-width: 500px;
+    background-color: purple;
+    flex: 1 1 0;
+
+}
+
+.first-image {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .section-two {
-    flex-grow: 2;
-    background-color: rgb(255, 192, 239);
+    flex-grow: 1;
+    background-color: black;
 }
